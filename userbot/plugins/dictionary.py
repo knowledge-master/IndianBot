@@ -1,4 +1,4 @@
-"""Dictionary Plugin for @UniBorg
+"""Dictionary Plugin for @knowledge_masterr
 Syntax: .meaning <word>"""
 
 import requests
