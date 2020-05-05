@@ -69,17 +69,8 @@ async def _(event):
 		deq.rotate(1)
 		
 
-@borg.on(admin_cmd("source$"))
-#@register(outgoing=True, pattern="^.source$")
-async def source(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("https://github.com/indianbhaiya/IndianBot")
 
-@borg.on(admin_cmd("readme$"))
-#@register(outgoing=True, pattern="^.readme$")
-async def reedme(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("https://github.com/indianbhaiya/IndianBot/blob/master/README.md")
+
 
 
 
@@ -125,12 +116,7 @@ CMD_HELP.update({
 CMD_HELP.update({
     "clock": "Bot will send a cool clock animation."
 })
-CMD_HELP.update({
-    "readme": "Reedme."
-})
-CMD_HELP.update({
-    "source": "Gives the source of your userbot"
-})
+
 CMD_HELP.update({
     "myusernames": "List of Usernames owned by you."
 })
