@@ -4,9 +4,9 @@ conversation starter questions...
 
 Syntax: .qt
 
-  inspired by @Deonnn's being_logical.py
+  inspired by OWNER's being_logical.py
 
-  edited by : @mahshook_bot
+  edited by : @knowledge_masterr
 
 """
 
