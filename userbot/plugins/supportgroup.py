@@ -1,7 +1,7 @@
 """Emoji
 Available Commands:
 .support
-Credits to @pureindialover
+Credits to @knowledge_masterr
 """
 
 from telethon import events
@@ -18,10 +18,10 @@ async def _(event):
     animation_ttl = range(0,36)
     #input_str = event.pattern_match.group(1)
    # if input_str == "support":
-    await event.edit("for our support group")
+    await event.edit("for our support channel")
     animation_chars = [
             "Click here",
-            "[Support Group](https://t.me/IndianBot_Official)"
+            "[Support Channel](https://t.me/k_m_info)"
          ]
             
 
